@@ -22,3 +22,19 @@ def generateUsername(nom,prenom):
 print(generateUsername('gbele','hans'))
 
 ```
+# script_calcule_age
+
+```python 
+
+import datetime
+def age(date_aniv):
+    date_aniv = datetime.strptime(datestr,"%d/%m/%Y").year
+    date = datetime.datetime.now().year
+    age = date - date_aniv
+    return age
+
+date_aniv = '01/04/1996'
+
+print(age(date_aniv))
+
+```
